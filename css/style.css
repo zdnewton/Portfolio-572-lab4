@@ -1,7 +1,7 @@
 /***** NAVBAR *****/
 
 .navbar {
-    background-color: #1261f5;
+    background-color: #528cf7;
     border-radius: 0;
 }
 
@@ -53,9 +53,11 @@
 /*** JUMBOTRON ***/
 
 .jumbotron {
-    background-image: url("../assets/contour-lines.png");
+    background-image: url("../assets/parcels.png");
+    background-color: rgba(255,255,255,0.5);
+    background-blend-mode:lighten;
     text-align: center;
-    color: #fff;
+    color: #000000;
     padding: 3%;
     border-radius: 0px;
 }
@@ -117,6 +119,6 @@ a:hover {
 body {
 
     font-family: 'Georgia', serif;
-    background-color: #f7f1fa;
+    background-color: #528cf7;
     color: #242424;
 }
